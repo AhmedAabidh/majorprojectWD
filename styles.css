@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.pexels.com/photos/1446076/pexels-photo-1446076.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #07223f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 5px 5px px black;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:focus {
+    outline: none;
+    animation: pulse 1s infinite;
+}
+.app-header {
+    background-color: #333a41;
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 5px 5px 10px black;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-header {
+    background-color: #333a41; 
+    color: #fff; 
+    padding: 10px;
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.current-weather {
+    margin-top: 20px;
+}
+
+
+.forecast-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #1b1818;
+    width: 300px;}
